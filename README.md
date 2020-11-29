@@ -19,6 +19,8 @@ Copy the contents of this repo and change the name in `package.json` to your new
 
 It is probably a good idea to, in a temporary directory, run `react-static create` and select `typescript`, then compare the results with this repo to see if anything is out of date. Maybe upgrade dependencies to any new versions you see in that package.json.
 
+You can see the changes I made after the initial `react-static create` by comparing with the `initial-template` tag of this repo: https://github.com/mturley/react-static-hello-world/compare/initial-template...main
+
 # Developing
 
 ```sh
