@@ -9,12 +9,13 @@ Based on this template: https://html5up.net/story
 # Developing
 
 ```sh
-npm i
-npm start
+yarn
+yarn start
 ```
 
 # Building for production
 
 ```sh
-npm build
+yarn build
+yarn serve # Test locally (optional)
 ```
