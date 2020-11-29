@@ -1,9 +1,9 @@
-import React from 'react'
-import { Root, Routes, addPrefetchExcludes } from 'react-static'
-import { Router } from '@reach/router'
+import React from 'react';
+import { Root, Routes, addPrefetchExcludes } from 'react-static';
+import { Router } from '@reach/router';
 
 // Any routes that start with 'dynamic' will be treated as non-static routes
-addPrefetchExcludes(['dynamic'])
+addPrefetchExcludes(['dynamic']);
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         </Router>
       </React.Suspense>
     </Root>
-  )
+  );
 }
 
-export default App
+export default App;

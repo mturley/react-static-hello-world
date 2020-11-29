@@ -7,11 +7,12 @@
     "build": "react-static build",
     "bundle": "react-static bundle",
     "export": "react-static export",
-    "serve": "serve dist -p 3000 -s"
+    "serve": "serve dist -p 3000 -s",
+    "format": "prettier --check --write ./src/**/*.{tsx,ts,js} ./*.{tsx,ts,js}",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
-    "axios": "^0.19.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-static": "^7.2.0",
@@ -27,6 +28,7 @@
     "@types/react-dom": "^16.8.5",
     "@types/react-hot-loader": "^4.1.0",
     "@types/webpack-env": "^1.14.0",
+    "prettier": "^2.2.1",
     "react-hot-loader": "^4.12.11",
     "serve": "^11.1.0",
     "typescript": "^3.5.3"
